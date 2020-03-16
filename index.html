@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="icon" href="./assets/images/icon.jpg" />
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Welcome to Freelance Mantra | A one place community</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img src="./assets/images/logo.png" alt="freelancemantra_logo">&nbsp;Freelance Mantra</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li id="loginBtn" class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" data-toggle="modal" data-target="#loginRegisterForm">Log In</a>
+                </li>
+                <li id="registerBtn" class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" data-toggle="modal" data-target="#loginRegisterForm">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="dashboard">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 headline">
+                    <h1>We build trust,<br /></h1>
+                    <h1>So you can grow</h1>
+                    <div class="rw-words rw-words-1">
+                        <span>business.</span>
+                        <span>ecosystems.</span>
+                        <span>customers.</span>
+                        <span>communities.</span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div id="searchBar">
+                        <form action="index.php" method="post">
+                            <div class="input-group">
+                                <input name="search" type="text" class="form-control"
+                                    placeholder="What are you searching for?">
+                                <span class="input-group-btn">
+                                    <button name="submit" class="btn btn-default" type="button">
+                                        <span class="fas fa-search"></span>
+                                        <!-- <i class="fas fa-search"></i> -->
+                                    </button>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                    <br>
+                    <div id="dashboard-carousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-interval="3000">
+                                <img src="./assets/images/computer-1245714_960_720.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-interval="3000">
+                                <img src="./assets/images/code-1076536_960_720.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-interval="3000">
+                                <img src="./assets/images/social-media-2786261_960_720.png" class="d-block w-100"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item" data-interval="3000">
+                                <img src="./assets/images/webdesign-3411373_960_720.png" class="d-block w-100"
+                                    alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="get_started">
+            <a class="bg-primary" href="#panel">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </div>
+    <div id="panel">
+        <div class="container">
+            <div><a href="#" class="btn btn-danger btn-lg">Have a question?</a></div>
+            <div><a href="" class="btn btn-primary btn-lg">Answer a question</a></div>
+        </div>
+    </div>
+    <div id="faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-8 mt-4">
+                    <h1>Frequenty Asked Questions</h1>
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingOne" data-toggle="collapse" role="button"
+                                data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                <span class="d-inline  float-right"><i class="fas-7x fa-plus fa "></i></span>
+                                <h4 class="mb-0 d-inline">
+                                    <span>
+                                        What is Freelance Mantra?
+                                    </span>
+                                </h4>
+                            </div>
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#faq">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum excepturi non optio, accusantium possimus dolore laudantium voluptates assumenda error atque neque aut aliquam iusto corrupti! Modi, quidem. Amet quod id non eum suscipit nisi ad architecto, veritatis a recusandae. Excepturi numquam iusto cupiditate obcaecati autem assumenda, consequatur minus consectetur non.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo" data-toggle="collapse" role="button"
+                            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <span class="d-inline  float-right"><i class="fas-7x fa-plus fa "></i></span>
+                            <h4 class="mb-0 d-inline">
+                                <span>
+                                    What is the use of Freelance Mantra?
+                                </span>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faq">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et laboriosam est at ab. Aperiam quasi suscipit, voluptatum eaque architecto numquam deserunt voluptas itaque, unde qui adipisci libero. Quaerat quae in cupiditate quis asperiores, consequuntur mollitia recusandae quam aut esse! Veritatis facere quis non eos, atque delectus quidem consequatur dolore quae.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree" data-toggle="collapse" role="button"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <span class="d-inline  float-right"><i class="fas-7x fa-plus fa"></i></span>
+                            <h4 class="mb-0 d-inline">
+                                <span>
+                                    Did not find your question?
+                                </span>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faq">
+                            <div class="card-body">
+                                <p>Mail us at <a href="mailto:abc@example.com">abc@example.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div id="noticeBoard">
+                        <div>
+                            <h3>Notice</h3>
+                            <hr>
+                            <div class="noticeGroup">
+                                <div class="notice">
+                                    <h5>8 Jan, 2020</h5>
+                                    <h6><strong>Title lorem ipsum</strong></h6>
+                                    <div class="notice-image text-center">
+                                        <img src="./assets/images/dummy.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="notice">
+                                    <h5>8 Jan, 2020</h5>
+                                    <h6><strong>Title lorem ipsum</strong></h6>
+                                    <div class="notice-image text-center">
+                                        <img src="./assets/images/dummy.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="notice">
+                                    <h5>8 Jan, 2020</h5>
+                                    <h6><strong>Title lorem ipsum</strong></h6>
+                                    <div class="notice-image text-center">
+                                        <img src="./assets/images/dummy.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="notice">
+                                    <h5>8 Jan, 2020</h5>
+                                    <h6><strong>Title lorem ipsum</strong></h6>
+                                    <div class="notice-image text-center">
+                                        <img src="./assets/images/dummy.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="company_footer">
+                            <img src="./assets/images/logo.png" alt="company_logo">
+                            <div id="contact_details">
+                                <div><i class="fas fa-phone"></i>&nbsp;&nbsp;+91-9999999999</div>
+                                <div><i class="fas fa-fax"></i>&nbsp;&nbsp;+91-9999999999</div>
+                                <div><i class="fas fa-at"></i>&nbsp;&nbsp;abc@example.com</div>
+                            </div>
+                            <div id="social_links">
+                                <a href="#" class="twitter_icon social_icon"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="facebook_icon social_icon"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="instagram_icon social_icon"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="linkedin_icon social_icon"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="feedback_footer">
+                            <h1>FEEDBACK</h1>
+                            <form action="#">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="far fa-id-badge"></i></span>
+                                    </div>
+                                    <input type="text" aria-label="Full name" class="form-control" placeholder="Full Name">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text" id="basic-addon2"><i class="far fa-envelope"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Enter Your Email"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                </div>
+                                <div class="input-group">
+                                    <textarea class="form-control" aria-label="With textarea"
+                                        placeholder="Enter Your Message"></textarea>
+                                </div>
+                                <button class="btn btn-primary mt-2">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="quick_links_footer text-right">
+                            <h1>Quick Links</h1>
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Schemes &amp; Policies</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="copyright" class="text-center">
+            <div class="container">
+                <p>&copy; 2020 Freelance Mantra. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login/Register Form -->
+    <div class="modal fade" id="loginRegisterForm" data-backdrop="static" tabindex="-1" role="dialog"
+        aria-labelledby="loginRegisterFormLabel" aria-hidden="true">
+        <div class="modal-dialog .modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="row">
+                        <div class="col-6 company_banner_form">
+                            <img src="./assets/images/logo.png" alt=""><br>
+                            <p>Freelance Mantra Portal is a one of its kind online platform for everyone where one can put their query and answer to other queries also.</p>
+                            <img src="./assets/images/connect_discuss_learn_apply.PNG" alt="">
+
+                        </div>
+                        <div class="col-6">
+                            <div class="list-group" id="list-tab" role="tablist">
+                                <a class="list-group-item list-group-item-action active" id="list-login-list"
+                                    data-toggle="list" href="#list-login" role="tab" aria-controls="login">Login</a>
+                                <a class="list-group-item list-group-item-action" id="list-register-list"
+                                    data-toggle="list" href="#list-register" role="tab"
+                                    aria-controls="register">Register</a>
+                            </div>
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="list-login" role="tabpanel"
+                                    aria-labelledby="list-login-list">
+                                    <form action='index.php' method='POST'>
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" name='userLoginEmail' id="userLoginEmail"
+                                                aria-describedby="emailHelp"
+                                                placeholder="Enter your username / email id">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control" name='userLoginPassword' id="userLoginPassword"
+                                                placeholder="Password">
+                                        </div>
+                                        <div class="text-right">
+                                            <a href="#">Unable to login?</a>
+                                        </div>
+                                        <button type="submit" name='submit' class="btn btn-primary btn-block">LOG IN</button>
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="list-register" role="tabpanel"
+                                    aria-labelledby="list-register-list">
+                                    <form id="registerForm" method="POST" action="index.php">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="user_name"
+                                                aria-describedby="name" name="user_name" placeholder="Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" id="userRegisterEmail"
+                                                aria-describedby="emailHelp" name="userRegisterEmail"
+                                                placeholder="Enter your username / email id">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="number" class="form-control" id="userPhone"
+                                                aria-describedby="phone" name="userPhone" placeholder="Mobile Number">
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="form-row">
+                                                <div class="col">
+                                                    <input type="password" class="form-control"
+                                                        id="userRegisterPassword" name="userRegisterPassword"
+                                                        placeholder="Password">
+                                                </div>
+                                                <div class="col">
+                                                    <input type="password" class="form-control"
+                                                        id="userRegisterConfirmPassword"
+                                                        name="userRegisterConfirmPassword"
+                                                        placeholder="Confirm Password">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary btn-block" id="registerAccount"
+                                            name="registerAccount">CREATE ACCOUNT</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./js/jquery-3.4.1.slim.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
